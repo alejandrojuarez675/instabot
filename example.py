@@ -4,8 +4,8 @@
 from instabot_py import InstaBot
 
 bot = InstaBot(
-    login="rosario.veggie",  # Enter username (lowercase). Do not enter email!
-    password="rosarioveggie",
+    login="{{{USERNAME}}}",  # Enter username (lowercase). Do not enter email!
+    password="{{{PASSWORD}}}",
     like_per_day=900,
     comments_per_day=0,
     tag_list=["veggie", "vidavegana", "cocinavegana", "comida", "animal", "vegan", "vegano", "vegetariano", "rosario", "santafe", "pedidosya", "glovo", "rappi"],
